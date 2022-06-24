@@ -1,0 +1,116 @@
+﻿<Window x:Class="WpfApp.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:res="clr-namespace:WpfApp.Properties"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label
+            Grid.Row="0"
+            Grid.ColumnSpan="6"
+            Content="{x:Static res:Resources.lbChangeSettings}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="30"
+            x:Name="lbChangeSettings" 
+            />
+        <GroupBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" x:Name="gbLanguage" Header="{x:Static res:Resources.gbLanguage}">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <RadioButton 
+                    Width="100" 
+                    VerticalAlignment="Center"
+                    IsChecked="True"
+                    x:Name="rbCro" 
+                    Content="{x:Static res:Resources.rbCro}"
+                    />
+                <RadioButton 
+                    VerticalAlignment="Center"
+                    x:Name="rbEng" Content="{x:Static res:Resources.rbEng}"
+                    />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" x:Name="gbChampionShip" Header="{x:Static res:Resources.gbChampionShip}">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <RadioButton 
+                    Width="100" 
+                    VerticalAlignment="Center"
+                    IsChecked="True"
+                    x:Name="rbMale" 
+                    Content="{x:Static res:Resources.rbMale}"
+                    />
+                <RadioButton 
+                    VerticalAlignment="Center"
+                    x:Name="rbFemale" Content="{x:Static res:Resources.rbFemale}"
+                    />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="{x:Static res:Resources.gbWindowSize}" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4" x:Name="gbWindowSize">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <RadioButton 
+                    Content="1280 x 720" 
+                    Width="100" 
+                    VerticalAlignment="Center"
+                    IsChecked="True"
+                    x:Name="rb1280x720"
+                    />
+                <RadioButton 
+                    Content="1366 x 768"
+                    Width="100" 
+                    VerticalAlignment="Center"
+                    x:Name="rb1366x768"
+                    />
+                <RadioButton 
+                    Content="1440 x 900"
+                    Width="100" 
+                    VerticalAlignment="Center"
+                    x:Name="rb1440x900"
+                    />
+                <RadioButton 
+                    Content="Full screen"
+                    Width="100" 
+                    VerticalAlignment="Center"
+                    x:Name="rbFullScreen"
+                    />
+            </StackPanel>
+        </GroupBox>
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Content="{x:Static res:Resources.btnSaveSettings}"
+            Padding="20, 10"
+            x:Name="btnSaveSettings" 
+            Click="btnSaveSettings_Click"
+            />
+        <Button
+            Grid.Row="3"
+            Grid.Column="4"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Content="{x:Static res:Resources.btnCloseSettings}"
+            Padding="20, 10"
+            x:Name="btnCloseSettings" 
+            Click="btnCloseSettings_Click"
+            />
+    </Grid>
+</Window>

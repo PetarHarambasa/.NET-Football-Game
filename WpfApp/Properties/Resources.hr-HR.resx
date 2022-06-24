@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClose" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="btnCloseSettings" xml:space="preserve">
+    <value>Zatvori postavke</value>
+  </data>
+  <data name="btnDetails" xml:space="preserve">
+    <value>Detalji</value>
+  </data>
+  <data name="btnNo" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="btnSaveSettings" xml:space="preserve">
+    <value>Spremi postavke</value>
+  </data>
+  <data name="btnSettings" xml:space="preserve">
+    <value>Promjeni postavke</value>
+  </data>
+  <data name="btnYes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="gbChampionShip" xml:space="preserve">
+    <value>Odabir prvenstva</value>
+  </data>
+  <data name="gbLanguage" xml:space="preserve">
+    <value>Odabir jezika</value>
+  </data>
+  <data name="gbWindowSize" xml:space="preserve">
+    <value>Veličina prozora</value>
+  </data>
+  <data name="lbAreYouSure" xml:space="preserve">
+    <value>Jeste li sigurni da zelite spremiti podatke?</value>
+  </data>
+  <data name="lbAreYouSureExit" xml:space="preserve">
+    <value>Jeste li sigurni da zelite izaći?</value>
+  </data>
+  <data name="lbAwayTeam" xml:space="preserve">
+    <value>Gosti</value>
+  </data>
+  <data name="lbCaptain" xml:space="preserve">
+    <value>Kapetan:</value>
+  </data>
+  <data name="lbChangeSettings" xml:space="preserve">
+    <value>Promjeni postavke</value>
+  </data>
+  <data name="lbGoals" xml:space="preserve">
+    <value>Golovi:</value>
+  </data>
+  <data name="lbGoalsConceded" xml:space="preserve">
+    <value>Primljenih golova:</value>
+  </data>
+  <data name="lbGoalsDiff" xml:space="preserve">
+    <value>Razilka golova:</value>
+  </data>
+  <data name="lbGoalsScored" xml:space="preserve">
+    <value>Zabijenih golova:</value>
+  </data>
+  <data name="lbHomeTeam" xml:space="preserve">
+    <value>Domaći</value>
+  </data>
+  <data name="lbLoses" xml:space="preserve">
+    <value>Porazi:</value>
+  </data>
+  <data name="lbSettings" xml:space="preserve">
+    <value>Odaberi postavke</value>
+  </data>
+  <data name="lbTotalMatches" xml:space="preserve">
+    <value>Ukupno utakmica:</value>
+  </data>
+  <data name="lbUndecided" xml:space="preserve">
+    <value>Neodlučenih:</value>
+  </data>
+  <data name="lbWins" xml:space="preserve">
+    <value>Pobjede:</value>
+  </data>
+  <data name="lbYellowCards" xml:space="preserve">
+    <value>Žuti Kartoni:</value>
+  </data>
+  <data name="rbCro" xml:space="preserve">
+    <value>Hrvatski</value>
+  </data>
+  <data name="rbEng" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="rbFemale" xml:space="preserve">
+    <value>Žensko</value>
+  </data>
+  <data name="rbMale" xml:space="preserve">
+    <value>Muško</value>
+  </data>
+</root>
